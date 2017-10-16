@@ -1,6 +1,6 @@
 import time, threading
 def foo():
     print(time.ctime())
-    threading.Timer(10, foo).start()
+    threading.Timer(1, foo).start()
 
 foo()
